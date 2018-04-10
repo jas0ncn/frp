@@ -2,7 +2,7 @@ FROM golang:1.8
 
 COPY . /go/src/github.com/fatedier/frp
 
-RUN sleep 100
+RUN sleep 300
 
 RUN cd /go/src/github.com/fatedier/frp \
  && make \
