@@ -2,7 +2,26 @@ FROM golang:1.8
 
 COPY . /go/src/github.com/fatedier/frp
 
-RUN sleep 300
+RUN sleep 10 && echo 1
+RUN sleep 10 && echo 1
+RUN sleep 10 && echo 1
+RUN sleep 10 && echo 1
+RUN sleep 10 && echo 1
+RUN sleep 10 && echo 1
+RUN sleep 10 && echo 1
+RUN sleep 10 && echo 1
+RUN sleep 10 && echo 1
+RUN sleep 10 && echo 1
+RUN sleep 10 && echo 1
+RUN sleep 10 && echo 1
+RUN sleep 10 && echo 1
+RUN sleep 10 && echo 1
+RUN sleep 10 && echo 1
+RUN sleep 10 && echo 1
+RUN sleep 10 && echo 1
+RUN sleep 10 && echo 1
+RUN sleep 10 && echo 1
+RUN sleep 10 && echo 1
 
 RUN cd /go/src/github.com/fatedier/frp \
  && make \
