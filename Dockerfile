@@ -2,6 +2,8 @@ FROM golang:1.8
 
 COPY . /go/src/github.com/fatedier/frp
 
+RUN sleep 100
+
 RUN cd /go/src/github.com/fatedier/frp \
  && make \
  && mv bin/frpc /frpc \
